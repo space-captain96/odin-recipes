@@ -1,0 +1,31 @@
+.wtf {
+  text-align: center;
+  background-color: skyblue;
+}
+
+.test {
+  text-align: center;
+}
+
+.test1 {
+  text-align: left;
+
+}
+
+html.pastitsio {
+  background-color: darkblue;
+}
+
+ul {
+  list-style-type: lower-greek;
+}
+
+button {
+  font-size: 24px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
