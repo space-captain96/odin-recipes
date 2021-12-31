@@ -1,23 +1,25 @@
-.wtf {
-  text-align: center;
-  background-color: skyblue;
+.description {
+  background-color: lightblue;
+  max-width: 1500px;
+  margin: 0 auto;
+  border: 2px solid;
+  padding: 25px 25px 25px 25px;
 }
 
-.test {
-  text-align: center;
+.ingredients {
+  max-width: 1500px;
+  margin: 0 auto;
+  border: 2px solid;
+  padding: 25px 25px 25px 25px;
 }
 
-.test1 {
-  text-align: left;
-
-}
-
-html.pastitsio {
-  background-color: darkblue;
-}
-
-ul {
-  list-style-type: lower-greek;
+.steps {
+  background-color: blue;
+  color: white;
+  max-width: 1500px;
+  margin: 0 auto;
+  border: 2px solid;
+  padding: 25px 25px 25px 25px;
 }
 
 button {
@@ -25,7 +27,18 @@ button {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-button1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+button:hover {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  width: 150px;
 }
 
+.index-div {
+  color: red;
+  letter-spacing: 5px;
+}
+
+html {
+  text-align: center;
+}
