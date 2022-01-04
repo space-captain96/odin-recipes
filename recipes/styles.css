@@ -1,14 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
 .description {
   background-color: lightblue;
+  line-height: 1.3;
   max-width: 1500px;
   margin: 0 auto;
+  margin-bottom: 25px;
   border: 2px solid;
   padding: 25px 25px 25px 25px;
 }
 
 .ingredients {
+  line-height: 1.3;
   max-width: 1500px;
   margin: 0 auto;
+  margin-bottom: 25px;
   border: 2px solid;
   padding: 25px 25px 25px 25px;
 }
@@ -16,6 +24,7 @@
 .steps {
   background-color: blue;
   color: white;
+  line-height: 1.3;
   max-width: 1500px;
   margin: 0 auto;
   border: 2px solid;
@@ -41,4 +50,14 @@ button:hover {
 
 html {
   text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 10px;
 }
